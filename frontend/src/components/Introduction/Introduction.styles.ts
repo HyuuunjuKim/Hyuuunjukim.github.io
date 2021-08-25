@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 const Container = styled.div`
   min-height: 52rem;
-  border: 0.1rem solid gray;
   display: flex;
   align-items: center;
   padding: 0 16rem;

@@ -1,8 +1,13 @@
 import React from 'react';
-import { Introduction } from '../../components';
+import { Introduction, MainProjectList } from '../../components';
 
 const HomePage = () => {
-  return <Introduction />;
+  return (
+    <>
+      <Introduction />
+      <MainProjectList />
+    </>
+  );
 };
 
 export default HomePage;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { css, Global } from '@emotion/react';
+import { PALETTE } from './constants';
 
 const GlobalStyles = () => (
   <Global
@@ -22,6 +23,7 @@ const GlobalStyles = () => (
       #root {
         font-family: 'Noto Sans KR', sans-serif;
         height: 100%;
+        color: ${PALETTE.BLACK};
       }
 
       ul {

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, ProfileImage, Introduce } from './Introduction.styles';
-import { MyPicture } from '../../assets/image';
+import { Me } from '../../assets/image';
 
 const Introduction = () => {
   return (
     <Container>
-      <ProfileImage src={MyPicture} />
+      <ProfileImage src={Me} />
       <Introduce>소개 멘트</Introduce>
     </Container>
   );

@@ -1,3 +1,5 @@
-import MyPicture from './my-picture.jpeg';
+import Me from './my-picture.jpeg';
+import CVI from './cvi.png';
+import Prolog from './prolog.png';
 
-export { MyPicture };
+export { Me, CVI, Prolog };
