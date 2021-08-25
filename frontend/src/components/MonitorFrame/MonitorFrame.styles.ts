@@ -1,0 +1,34 @@
+import styled from '@emotion/styled';
+
+const Container = styled.div`
+  width: 52rem;
+  border-radius: 0.6rem;
+`;
+const Image = styled.img`
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+`;
+
+const Top = styled.div`
+  background-color: #35373a;
+  width: 100%;
+  height: 1.6rem;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+  display: flex;
+  align-items: center;
+  padding-left: 0.8rem;
+  gap: 0.4rem;
+`;
+
+const Circle = styled.div`
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+
+  ${({ color }) => `background-color: ${color ? color : `#eeeeee`}`};
+`;
+
+export { Container, Image, Top, Circle };
