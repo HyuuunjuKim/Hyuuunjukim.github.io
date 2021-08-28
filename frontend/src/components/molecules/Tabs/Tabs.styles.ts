@@ -9,17 +9,20 @@ const Container = styled.div`
   justify-content: flex-start;
   align-items: center;
   line-height: 1.5;
-  padding: 0 3.2rem;
 `;
 
 const buttonCSS = css`
+  margin-bottom: 0.3rem;
+  height: 100%;
   border-radius: 0;
   position: relative;
 `;
 
 const selectedButtonCSS = css`
+  margin-bottom: 0;
+  height: 100%;
   border-radius: 0;
-  border-bottom: 0.2rem solid ${PALETTE.BLACK};
+  border-bottom: 0.3rem solid ${PALETTE.BLACK};
   color: ${PALETTE.BLACK};
 `;
 

@@ -2,11 +2,17 @@ import styled from '@emotion/styled';
 
 const Container = styled.div`
   width: 52rem;
+  height: 30.8rem;
   border-radius: 0.6rem;
+  /* border: 0.1rem solid gray; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 1rem 0.8rem rgba(0, 0, 0, 0.06);
 `;
 const Image = styled.img`
   width: 100%;
-  height: auto;
+  height: 28.9rem;
+  object-fit: contain;
   border-bottom-left-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
 `;
