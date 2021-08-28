@@ -1,6 +1,6 @@
 import React from 'react';
+import { ButtonBackgroundType } from '../../../types';
 import Button from './Button';
-import { ButtonBackgroundType } from '../../types';
 
 export default {
   title: 'Button',

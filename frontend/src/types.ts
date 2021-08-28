@@ -4,4 +4,9 @@ enum ButtonBackgroundType {
   TEXT = 'TEXT',
 }
 
-export { ButtonBackgroundType };
+enum MonitorAlign {
+  LEFT = 'LEFT',
+  RIGHT = 'RIGHT',
+}
+
+export { ButtonBackgroundType, MonitorAlign };
