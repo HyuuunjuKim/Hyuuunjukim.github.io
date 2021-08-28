@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
-import { PALETTE } from '../../constants';
+import { PALETTE } from '../../../constants';
 
 const Container = styled.div`
   display: flex;

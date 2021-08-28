@@ -1,6 +1,6 @@
 import styled, { CSSObject } from '@emotion/styled';
-import { PALETTE } from '../../constants';
-import { ButtonBackgroundType } from '../../types';
+import { PALETTE } from '../../../constants';
+import { ButtonBackgroundType } from '../../../types';
 
 interface ContainerProps {
   backgroundType: ButtonBackgroundType;

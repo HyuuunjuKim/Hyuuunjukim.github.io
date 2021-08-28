@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, ProfileImage, Introduce } from './Introduction.styles';
-import { Me } from '../../assets/image';
+import { Me } from '../../../assets/image';
 
 const Introduction = () => {
   return (

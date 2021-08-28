@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, buttonCSS, selectedButtonCSS } from './Tabs.styles';
-import { PALETTE } from '../../constants';
-import { ButtonBackgroundType } from '../../types';
-import Button from '../Button/Button';
+import { PALETTE } from '../../../constants';
+import { ButtonBackgroundType } from '../../../types';
+import { Button } from '../../atoms';
 
 interface Props {
   tabList: [];

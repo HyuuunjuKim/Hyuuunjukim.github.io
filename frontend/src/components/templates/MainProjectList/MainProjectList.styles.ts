@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { PALETTE } from '../../constants';
+import { PALETTE } from '../../../constants';
 
 const Container = styled.div`
   background-color: ${PALETTE.GRAY_100};
@@ -14,6 +14,7 @@ const ProjectListContainer = styled.div`
   display: flex;
   overflow-y: auto;
   gap: 3.6rem;
+  padding: 1rem;
 `;
 
 export { Container, Title, ProjectListContainer };

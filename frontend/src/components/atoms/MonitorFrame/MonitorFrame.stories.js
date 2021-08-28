@@ -1,6 +1,6 @@
 import React from 'react';
 import MonitorFrame from './MonitorFrame';
-import { CVI } from '../../assets/image';
+import { CVI } from '../../../assets/image';
 
 export default {
   title: 'MonitorFrame ',

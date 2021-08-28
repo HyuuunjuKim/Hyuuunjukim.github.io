@@ -1,13 +1,13 @@
 import { CSSObject } from '@emotion/react';
 import React, { ButtonHTMLAttributes } from 'react';
-import { ButtonBackgroundType } from '../../types';
+import { ButtonBackgroundType } from '../../../types';
 import { Container } from './Button.styles';
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   backgroundType?: ButtonBackgroundType;
   color?: string;
-  isSelected: boolean;
+  isSelected?: boolean;
   css?: CSSObject;
   onClick?: () => void;
 }
@@ -16,7 +16,7 @@ const Button = ({
   children,
   backgroundType = ButtonBackgroundType.FILLED,
   color = '#03BD9E',
-  isSelected,
+  isSelected = false,
   css = {},
   onClick,
   ...props
