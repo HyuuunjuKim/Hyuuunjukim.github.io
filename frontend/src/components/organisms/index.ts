@@ -1,4 +1,4 @@
 import MainProject from './MainProject/MainProject';
-import Project from './Project/Project';
+import ProjectFrame from './ProjectFrame/ProjectFrame';
 
-export { MainProject, Project };
+export { MainProject, ProjectFrame };

@@ -1,10 +1,9 @@
 import styled from '@emotion/styled';
 
 const Container = styled.div`
-  width: 52rem;
+  min-width: 52rem;
   height: 30.8rem;
   border-radius: 0.6rem;
-  /* border: 0.1rem solid gray; */
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 1rem 0.8rem rgba(0, 0, 0, 0.06);

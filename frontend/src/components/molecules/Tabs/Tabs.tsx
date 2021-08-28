@@ -5,7 +5,7 @@ import { ButtonBackgroundType } from '../../../types';
 import { Button } from '../../atoms';
 
 interface Props {
-  tabList: [];
+  tabList: Array<string>;
   selectedTab?: string;
   setSelectedTab?: (arg0: string) => void;
 }
