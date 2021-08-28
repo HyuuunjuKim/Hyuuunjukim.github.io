@@ -1,43 +1,25 @@
 import React from 'react';
+import { JavascriptRacingCarPreview } from '../../../assets/image';
 import { ButtonBackgroundType, MonitorAlign, Month } from '../../../types';
 import { Button, MonitorFrame } from '../../atoms';
-import {
-  Container,
-  Title,
-  Description,
-  Detail,
-  Line,
-  StartMonth,
-  EndMonth,
-  LineContainer,
-  ProjectContainer,
-} from './Project.styles';
+import { Container, Title, Description, Detail, ProjectContainer } from './Project.styles';
 
 interface Props {
-  startMonth?: Month | '';
-  endMonth: Month;
   monitorAlign?: MonitorAlign;
-  src: string;
+  src?: string;
   title: string;
   description: string;
   color?: string;
 }
 
 const Project = ({
-  startMonth = '',
-  endMonth,
   monitorAlign = MonitorAlign.LEFT,
-  src,
+  src = JavascriptRacingCarPreview,
   title,
   description,
   color = '#03BD9E',
 }: Props) => (
   <Container>
-    <LineContainer>
-      {startMonth && <StartMonth>{startMonth}월</StartMonth>}
-      <Line startMonth={startMonth} />
-      <EndMonth>{endMonth}월</EndMonth>
-    </LineContainer>
     <ProjectContainer>
       {monitorAlign === MonitorAlign.LEFT && <MonitorFrame src={src} />}
       <Detail>
