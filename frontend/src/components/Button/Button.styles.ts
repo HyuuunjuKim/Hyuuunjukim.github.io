@@ -1,11 +1,12 @@
-import styled from '@emotion/styled';
+import styled, { CSSObject } from '@emotion/styled';
 import { PALETTE } from '../../constants';
 import { ButtonBackgroundType } from '../../types';
 
 interface ContainerProps {
   backgroundType: ButtonBackgroundType;
-  styles: object;
+  css: CSSObject;
   color: string;
+  isSelected: boolean;
 }
 
 const backgroundStyle = {
@@ -36,8 +37,8 @@ const Container = styled.button<ContainerProps>`
   border-radius: 0.6rem;
   cursor: pointer;
 
-  ${({ styles }) => `${styles ?? ''}`};
-  ${({ backgroundType }) => backgroundStyle[backgroundType]};
+  ${({ backgroundType }) => backgroundType && backgroundStyle[backgroundType]};
+  ${({ css }) => css && css};
 `;
 
 export { Container };
